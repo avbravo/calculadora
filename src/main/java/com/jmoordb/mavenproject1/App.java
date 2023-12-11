@@ -20,6 +20,7 @@ public class App {
         Integer b = 6;
         var r = c.sumar(a, b);
         System.out.println("La suma de "+ a+ " + "+b +"="+r);
+        
 
     }
 }
