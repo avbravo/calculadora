@@ -19,15 +19,15 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-#    - name: Build with Maven
-#      run: mvn -B package --file pom.xml 
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml 
     - name: Run the Maven verify phase
       run: mvn --batch-mode --update-snapshots verify
       
-#    - run: mkdir staging && cp target/*.jar staging
-#      with:
-#        name: Package
-#        path: staging
+    - run: mkdir staging && cp target/*.jar staging
+      with:
+        name: Package
+        path: staging
 #    - uses: actions/upload-artifact@v3
 #      with:
 #      name: Package

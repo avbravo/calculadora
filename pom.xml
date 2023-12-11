@@ -33,7 +33,7 @@
     </properties>
     <name>calculadora</name>
     
-    <project>
+
 
    <reporting>
       <plugins>
@@ -51,6 +51,6 @@
         </plugin>
       </plugins>
     </reporting>
-  ...
-</project>
+
+
 </project>
