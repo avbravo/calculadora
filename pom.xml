@@ -32,4 +32,25 @@
         <exec.mainClass>com.jmoordb.mavenproject1.Mavenproject1</exec.mainClass>
     </properties>
     <name>calculadora</name>
+    
+    <project>
+
+   <reporting>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-checkstyle-plugin</artifactId>
+          <version>3.3.1</version>
+          <reportSets>
+            <reportSet>
+              <reports>
+                <report>checkstyle</report>
+              </reports>
+            </reportSet>
+          </reportSets>
+        </plugin>
+      </plugins>
+    </reporting>
+  ...
+</project>
 </project>
