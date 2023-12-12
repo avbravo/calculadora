@@ -14,7 +14,7 @@ public class CalculadoraImpl implements Calculadora{
 
     @Override
     public Integer sumar(Integer a, Integer b) {
-       return a+b-1;
+       return a+b;
     }
     
 }
